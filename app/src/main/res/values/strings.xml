@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">ShopList</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="addItem">Add Item</string>
+    <string name="item">Enter your Item:</string>
+    <string name="produce_item">Produce Item</string>
+    <string name="frozen_item">Frozen Item</string>
+    <string name="meatitem">Meat Item</string>
+    <string name="canned_item">Canned Item</string>
+    <string name="mexican_item">Mexican/Spices Item</string>
+    <string name="breakfast_item">Breakfast Item</string>
+    <string name="drinksa_item">Drinks Item</string>
+    <string name="other_item">Other Item</string>
+
+    <string-array name="item_locations">
+        <item>Produce Item</item>
+        <item>Frozen Item</item>
+        <item>Meat Item</item>
+        <item>Canned Item</item>
+        <item>Mexican/Spices Item</item>
+        <item>Breakfast Item</item>
+        <item>Drinks Item</item>
+        <item>Other Item</item>
+    </string-array>
+</resources>

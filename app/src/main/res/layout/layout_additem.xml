@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="168dp"
+        android:layout_height="wrap_content"
+        android:text="@string/item"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+    <Spinner
+        android:layout_width="569dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner_item_locations"
+        android:entries="@array/item_locations"
+        android:layout_gravity="center_vertical"
+        android:layout_below="@+id/editTextDialogUserInput"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/editTextDialogUserInput"
+        android:layout_width="176dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/textView1">
+
+    <requestFocus />
+
+    </EditText>
+
+
+</RelativeLayout>
